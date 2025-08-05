@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="author" content="Abinesh R">
+      <title>Weather Predictor</title>
+      <link rel="icon" href="icon.png">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="whole">
+        <div class="container">
+          <section class="search">
+            <input type="text" placeholder="Enter a city" id="bar">
+            <img src="scope.jpeg" id="scope" width="30px" onclick="setApi(bar.value)">
+          </section>
+        <div class="show">
+          <section class="weather">
+            <img src="cloud.png" id="cloudy" width="250px" height="250px">
+            <h1 class="deg">33℃</h1>
+            <h2 class="var1">Nagapattinam</h2>
+          </section>
+        </div>
+        <div class="det">
+          <section class="Humi">
+            <img src="humidity.png" id="sat" width="250px" height="250px">
+            <h1 class="per">33%</h1>
+            <h2 class="var2">Humidity</h2>
+          </section>
+          <section class="wind">
+            <img src="wind.png" id="air" width="250px" height="250px">
+            <h1 class="km">33km/h</h1>
+            <h2 class="var3">Wind</h2>
+          </section>
+        </div>
+      </div>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>

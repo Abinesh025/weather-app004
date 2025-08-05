@@ -1,0 +1,135 @@
+*
+{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+:root
+  {
+    --F-COLOR:var(--F-COLOR);
+  }
+body
+  {
+    margin-top: 10%;
+    min-height: 150vh;
+    background-image: url(istockphoto-1429701799-612x612.jpg);
+    background-position: 100%;
+    background-size: cover;
+  }
+.whole
+  {
+    width:100%;
+    display:flex;
+    justify-content: center;
+  }
+.error
+  {
+    color: #000000;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+    display: block;
+  }
+.container
+  {
+    width:70%;
+    box-shadow:2px 2px 10px black;
+    background-color: rgba(255, 255, 255, 0.119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 1.5em;
+    transition: step-end;
+  }
+
+.search
+  {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255,255);
+    width: 50%;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow:2px 2px 10px black;
+  }
+#scope
+  {
+    cursor: pointer;
+  }
+#bar
+  {
+    border:2px solid transparent;
+    outline: 0;
+    width: 60%;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+.show {
+margin-top: 5%;
+margin-left: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.deg{
+font-size: 90px;
+color: var( -- F-COLOR);
+text-shadow:3px 3px 5px Oblark;
+}
+.var{
+font-size: 60px;
+color: var( -- F-COLOR);
+text-shadow:3px 3px 5px Oblack;
+}
+.det{
+width: 100%;
+margin-top: 5%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.var1{
+
+color: var( -- F-COLOR);
+text-shadow:3px 3px 5px black;
+}
+.var2{
+color: var(-- F-COLOR);
+text-shadow:3px 3px 5px Oblack;
+}
+
+
+.var3{
+font-size: 60px;
+color: var( -- F-COLOR);
+text-shadow:3px 3px 5px Oblack;
+}
+.km{
+font-size: 60px;
+color: var( -- F-COLOR);
+text-shadow:3px 3px 5px Oblack;
+}
+.per{
+
+color: var( -- F-COLOR);
+text-shadow:3px 3px 5px black;
+}
+.Humi{
+display: none;
+}
+.wind{
+display: none;
+}
+.show{
+display: none;
+}
